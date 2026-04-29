@@ -1,3 +1,4 @@
+/* Grace Graves, April 25, CS 125H - Lab 3, v1. Color pallette: #290A1A - says unnamed but Color Designer claims its Meski Black, #87b38d - Muted Teal, #FFA5A5 - Powder Blush, #922D50 - Vintage Berry, #F1BEA3 - Peach Beige, #490E22 - Vermilion*/
 :root {
     --accent-color: #290A1A;
 }
@@ -46,6 +47,7 @@ p {
     font-size: 100%;
     line-height: normal;
     text-align: justify;
+    text-align-last: center;
     color: var(--accent-color);
     font-weight: bold;
     background-color: #ffa5a5;
