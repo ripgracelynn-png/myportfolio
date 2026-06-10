@@ -233,14 +233,14 @@ body#poemwall header {
     }
 }
 
-/*Photo Realm Page*/
+/*Photo Realm Page
+- I noted there was a comment within this section in the corrected css with: width at 70% and padding 0, but having the width constriction gave the photo's less room on the page when they are the main focus of the page.*/
 #photorealm section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* width: 70%;
-    padding: 0; */
+    padding: 0;
     margin: 2em;
     border: 2px solid var(--accent-color);
     & h2 {
@@ -274,4 +274,3 @@ footer p {
     font-size: 90%;
     text-align: center;
 }
-
